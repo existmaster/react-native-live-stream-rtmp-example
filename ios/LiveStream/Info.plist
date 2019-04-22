@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -40,11 +40,11 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>카메라 권한 확인</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>위치 권한 확인</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string></string>
+	<string>마이크 권한 확인</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>FontAwesome.ttf</string>
